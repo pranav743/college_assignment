@@ -61,10 +61,46 @@
     background-color: transparent;
 }
 
+.bio{
+    width: 90% !important;
+    height: 80% !important;
+    outline: solid 1px orangered;
+    padding: 10px;
+    border-radius: 15px;
+    resize: none;
+    margin-bottom: 15px;
+}
+
 .button-container{
     width: 100%;
     margin: 15px 0px;
     display: flex;
     padding: 0 20px;
     justify-content: space-between;
+}
+
+.error{
+    height: 20px;
+    color: red;
+    width: 100%;
+    text-align: center;
+    padding-left: 5px;
+    /* position: absolute; */
+}
+
+.view-btn{
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    padding: 7px 20px;
+    /* box-shadow: 0 0 10px #000; */
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.view-btn:hover{
+    background-color: #333;
+    color: #fff;
+    
 }
