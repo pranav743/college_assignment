@@ -6,7 +6,8 @@ import Grid from '@mui/material/Unstable_Grid2';
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import React, { useState } from 'react';
-
+import Courier from './Pages/Courier';
+import { LabelProvider } from "./labelDataContext"; 
 
 
 function App() {
@@ -40,7 +41,15 @@ function App() {
   }
 
   return (
-    <div className='background'>
+    <>
+    <LabelProvider>
+
+     <div className='background2'>
+     <Courier/>
+    </div> 
+
+    {/* <div className='background '> 
+
       <div className='form'>
         <div style={{ textAlign: 'center', margin: '20px 0 35px 0', fontSize: '22px' }}>{steps[stage]}</div>
         <div><CustomizedSteppers activeStep={stage} /></div>
@@ -117,8 +126,9 @@ function App() {
         </div>
       </div>
 
-    </div>
-
+     </div> */}
+    </LabelProvider>
+    </>
   );
 }
 
