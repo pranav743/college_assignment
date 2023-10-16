@@ -232,7 +232,7 @@ const AccountStepper = () => {
                                     <input
                                         className='text-field'
                                         placeholder='Re-enter Password'
-                                        type='pass'
+                                        type='password'
                                     />
                                 </div>
 
