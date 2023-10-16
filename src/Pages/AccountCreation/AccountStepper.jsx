@@ -143,6 +143,7 @@ const AccountStepper = () => {
                                     <input
                                         className='text-field'
                                         placeholder='Email'
+                                        type='email'
                                         value={email}
                                         onChange={handleEmailChange}
                                     />
@@ -212,6 +213,8 @@ const AccountStepper = () => {
                                     <input
                                         className='text-field'
                                         placeholder='Password'
+                                        type='password'
+
                                     />
                                 </div>
 
@@ -229,6 +232,7 @@ const AccountStepper = () => {
                                     <input
                                         className='text-field'
                                         placeholder='Re-enter Password'
+                                        type='pass'
                                     />
                                 </div>
 
